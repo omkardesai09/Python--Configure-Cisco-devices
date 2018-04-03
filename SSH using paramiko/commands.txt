@@ -1,0 +1,23 @@
+!
+!
+configure terminal
+!
+!
+!
+ip dhcp excluded-address 192.168.2.1
+ip dhcp excluded-address 192.168.2.100
+!
+!
+ip dhcp pool mypool
+network 192.168.1.0 255.255.255.0
+default-router 192.168.1.1
+exit
+!
+!
+exit
+wr
+!
+!
+show run | include dhcp
+!
+!
