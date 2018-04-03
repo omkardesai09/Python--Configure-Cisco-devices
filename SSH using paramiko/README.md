@@ -1,5 +1,5 @@
 
-# SSH a device using Python script
+# SSH a device using Python script(paramiko)
 After running this python script, user will be able to access Cisco device (switch, router) using SSH on port no. 22
 
 Addition to this, one can give any text file as a input in above python script and configure target Cisco device. 
